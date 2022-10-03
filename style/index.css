@@ -1,0 +1,61 @@
+body{
+    background-color: #f0f2f5;
+}
+.main{
+    font-family: inherit;
+}
+.card{
+    box-shadow:  0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 9px;
+}
+p{
+    font-size: 1.3rem;
+}
+.form-control ,.btn{
+    height: 3.5rem;
+    font-size: 1.2rem;
+}
+a{
+    text-decoration: none;
+}
+span{
+    color: red;
+}
+.error{
+    border: 1px solid red;
+    background-color: #ffebe8;
+    height: 3.5rem;
+    line-height: 2px;
+    display: none;
+}
+.error h5{
+    font-size: 1.2rem;
+}
+.error p{
+    font-size: 1rem;
+}
+.links2{
+    display: none;
+}
+@media screen and (max-width:790px) {
+    .main{
+        width: 80%;
+    }
+    .form-control ,.btn{
+        height: 3rem;
+        font-size: 1rem;
+    }
+    img{
+        width: 11rem !important;
+    }
+    .error{
+        height: 3rem;
+    }
+    .error h5{
+        font-size: 1rem;
+    }
+    .error p{
+        font-size: .8rem;
+    }
+   
+}
