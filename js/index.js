@@ -30,7 +30,7 @@ $(document).ready (function () {
                 var passvalidatio=passv.test(pswrd)  
             }                              
                 if(!passvalidatio){               
-                    $('.error').css("display","block");
+                    $('.error').css("display","block");   
                     $(".links1").css("display","none"); 
                     $(".links2").css("display","block");
                 }
